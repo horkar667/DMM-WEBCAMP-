@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+.contents {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  width: 300px;
+  margin-right: 30px;
+  background-color: #eee;
+}
+
+.steps {
+  background-color: #ff9a4b;
+  position:fixed;
+  padding:3px;
+  color: white;
+}
+.image1 {
+  margin: 10px;
+  width: 280px;
+  height: 150px;
+  background-image: url(../chapter9_exercise/chapter9_exercise/img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image2 {
+  margin: 10px;
+  width: 280px;
+  height: 150px;
+  background-image: url(../chapter9_exercise/chapter9_exercise/img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image3 {
+  margin: 10px;
+  width: 280px;
+  height: 150px;
+  background-image: url(../chapter9_exercise/chapter9_exercise/img/flow03.png);
+  background-size: cover;
+  background-position:bottom;
+}
+
+.text {
+  width: 280px;
+  margin :0 auto;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding: 5px 0;
+}
+
+.lowest {
+  height: 50px;
+  background-color: #aaa;
+}
